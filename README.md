@@ -146,11 +146,6 @@ Backend for processing ERP data, generating KPIs, and feeding dashboards with st
 # 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=JhonatanM2005&show_icons=true&theme=tokyonight" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=JhonatanM2005&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JhonatanM2005&layout=compact&theme=tokyonight" />
 </p>
 
