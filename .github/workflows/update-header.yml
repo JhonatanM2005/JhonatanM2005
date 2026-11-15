@@ -1,0 +1,47 @@
+name: Update Profile Header
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_header.py"
+      - ".github/workflows/update-header.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-header:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate header SVG
+        env:
+          # Set GH_PAT (classic PAT with repo + read:user) in repo secrets to include private repos.
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          OUTPUT_PATH: "header.svg"
+        run: python scripts/generate_header.py
+
+      - name: Commit updated header
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add header.svg
+          if git diff --cached --quiet; then
+            echo "No changes to header.svg"
+          else
+            git commit -m "chore: update profile header SVG"
+            git push
+          fi
