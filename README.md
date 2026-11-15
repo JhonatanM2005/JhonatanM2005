@@ -146,6 +146,11 @@ Backend for processing ERP data, generating KPIs, and feeding dashboards with st
 # 📊 GitHub Stats
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph" />
+</p>
+
+
+<p align="center">
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=JhonatanM2005&theme=tokyonight" />
 </p>
 
