@@ -83,45 +83,39 @@ Software Engineering student at **I.U. Pascual Bravo** and Systems Technician (*
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
-<p><code>01</code> · <strong>DroidLens</strong> <sub>— Systems & Mobile</sub></p>
-<p>Ultra-low latency Android-to-Windows USB webcam (15–35 ms) without OBS, powered by the custom APCM v2 binary protocol and dual virtual camera engines.</p>
-<p><sub>Python · Jetpack CameraX · IMFVirtualCamera · DirectShow</sub></p>
-<a href="https://github.com/JhonatanM2005/DroidLens">View Repo →</a>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/JhonatanM2005/DroidLens">
+    <img src="./assets/cards/droidlens.svg" alt="DroidLens - Systems & Mobile" width="100%" />
+  </a>
 </td>
-<td width="50%" valign="top">
-<p><code>02</code> · <strong>GastroForge</strong> <sub>— Multi-Tenant SaaS</sub></p>
-<p>Multi-tenant restaurant ERP monorepo featuring PostgreSQL Row-Level Security, OpenAPI TypeScript codegen, Redis caching, and real-time operational telemetry.</p>
-<p><sub>NestJS 11 · React Router v7 · Prisma · PostgreSQL · Redis</sub></p>
-<sub>Private Repository</sub>
+<td width="50%" align="center" valign="top">
+  <img src="./assets/cards/gastroforge.svg" alt="GastroForge - Multi-Tenant SaaS (Private Repository)" width="100%" />
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<p><code>03</code> · <strong>PotetosApp</strong> <sub>— Full-Stack · Real-Time</sub></p>
-<p>Comprehensive restaurant operations platform with menu and table management, kitchen dispatch module, RBAC, and live Socket.io notifications.</p>
-<p><sub>React · Node.js · Express · PostgreSQL · Socket.io</sub></p>
-<a href="https://github.com/JhonatanM2005/PotetosApp">View Repo →</a> · <a href="https://potetos-app.vercel.app">Live Demo →</a>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/JhonatanM2005/PotetosApp">
+    <img src="./assets/cards/potetosapp.svg" alt="PotetosApp - Full-Stack Real-Time" width="100%" />
+  </a>
+  <br/>
+  <sub><a href="https://potetos-app.vercel.app">Live Demo →</a></sub>
 </td>
-<td width="50%" valign="top">
-<p><code>04</code> · <strong>BravoBot_Quantix</strong> <sub>— AI & RAG</sub></p>
-<p>Conversational RAG assistant for I.U. Pascual Bravo admissions and academic programs using hybrid retrieval, local embeddings, and Gemini.</p>
-<p><sub>Python · FastAPI · ChromaDB · React · Docker</sub></p>
-<a href="https://github.com/H3llz07/BravoBot_Quantix">View Repo →</a>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/H3llz07/BravoBot_Quantix">
+    <img src="./assets/cards/bravobot.svg" alt="BravoBot_Quantix - AI & RAG" width="100%" />
+  </a>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<p><code>05</code> · <strong>Little_Pets</strong> <sub>— Web Platform</sub></p>
-<p>Full-stack pet adoption platform with automated application workflows, dynamic PDF generation, email dispatch, and role-based access control.</p>
-<p><sub>Node.js · Express · MongoDB · Render</sub></p>
-<a href="https://github.com/JhonatanM2005/Little_Pets">View Repo →</a>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/JhonatanM2005/Little_Pets">
+    <img src="./assets/cards/little-pets.svg" alt="Little_Pets - Web Platform" width="100%" />
+  </a>
 </td>
-<td width="50%" valign="top">
-<p><code>06</code> · <strong>gastroforge-vision</strong> <sub>— Computer Vision</sub></p>
-<p>Real-time restaurant table monitoring and chair-aware spatial tracking telemetry engine powered by Ultralytics YOLO and a custom state machine.</p>
-<p><sub>Python · Ultralytics YOLO · OpenCV · Pytest</sub></p>
-<a href="https://github.com/JhonatanM2005/gastroforge-vision">View Repo →</a>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/JhonatanM2005/gastroforge-vision">
+    <img src="./assets/cards/gastroforge-vision.svg" alt="gastroforge-vision - Computer Vision" width="100%" />
+  </a>
 </td>
 </tr>
 </table>
